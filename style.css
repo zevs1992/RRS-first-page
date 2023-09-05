@@ -17,11 +17,13 @@ body{
 }
 header{
    display: flex;
+   align-items: center;
    padding: 0 50px;
    margin-bottom: 5%;
 }
 
 header > img{
+   height: 100px;
    flex-grow: 1;
 }
 
@@ -34,10 +36,17 @@ ul {
    justify-content: space-around;
 }
 
-/* main{
+main{
    display: flex;
-} */
+}
+
+label{
+   padding-left: 100px;
+   flex-grow: 1;
+}
 
 meter{
-width: 100%;
+   width: 50%;
+   padding-right: 70px;
+   flex-grow: 1;
 }
