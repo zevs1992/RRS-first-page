@@ -11,13 +11,9 @@ li, a{
    list-style: none;
 }
 
-html{
-   height: 100%;
-}
-
 body{
    height: 100%;
-   padding: 30px;
+   padding: 30px 10px;
 }
 
 header{
@@ -43,7 +39,7 @@ fieldset{
    display: flex;
    flex-basis: 30px;
    align-items: center;
-   width: 80%;
+   width: 90%;
    margin: 5px 0;
 }
 
@@ -51,6 +47,11 @@ input{
    width: 50px;
    flex-grow: 1;
    margin-right: 20px;
+   border-radius: 5px;
+   border: 1px solid black;
+   outline: none;
+   padding: 5px 10px;
+   box-shadow: ;
 }
 
 button{
